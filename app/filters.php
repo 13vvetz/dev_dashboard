@@ -35,6 +35,7 @@ App::after(function($request, $response)
 
 Route::filter('auth', function()
 {
+// For login form, via http://fideloper.com/laravel-4-uber-quick-start-with-auth-guide
 //	if (Auth::guest()) return Redirect::guest('login');
 	if (Auth::guest()) return Redirect::to('login');
 });

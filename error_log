@@ -1,3 +1,4 @@
 [21-Nov-2013 19:01:12 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home8/payuforw/laravel/dev-dashboard/app/database/migrations/2013_11_21_185109_add_password_to_users.php on line 27
 [21-Nov-2013 19:01:51 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home8/payuforw/laravel/dev-dashboard/app/database/migrations/2013_11_21_185109_add_password_to_users.php on line 27
 [21-Nov-2013 19:02:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home8/payuforw/laravel/dev-dashboard/app/database/migrations/2013_11_21_185109_add_password_to_users.php on line 21
+[21-Nov-2013 19:15:46 UTC] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home8/payuforw/laravel/dev-dashboard/app/database/seeds/UserTableSeeder.php on line 12

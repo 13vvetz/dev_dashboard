@@ -1,6 +1,6 @@
 <div class="container">
  
-      <form class="form-signin form-horizontal" method="post" action="/login">
+      <form class="form-signin form-horizontal" method="post" action="login">
         <h2 class="">Please sign in</h2>
         <div class="control-group ">
           <label class="control-label" for="email">Email:</label>
