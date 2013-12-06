@@ -11,13 +11,16 @@
 |
 */
 
-/*
+Route::controller('users', 'UsersController');
+Route::controller('vendors', 'VendorsController');
+
 Route::get('/', function()
 {
 	return View::make('hello');
 });
+/*
 */
-
+/*
 Route::get('users', function()
 {
 //    return View::make('users');
@@ -33,11 +36,13 @@ Route::get('home', array('before' => 'auth' ,function()
     return 'Hello, '.Auth::user()->email.'!';
 }));
 
+// so if they haven't filled out form.
 Route::get('login', function()
 {
     return View::make('login');
 });
 
+// so they posted the form.
 Route::post('login', function()
 {
     // Validation? Not in my quickstart!
@@ -46,3 +51,13 @@ Route::post('login', function()
 
     return Redirect::to('home');
 });
+
+Route::get('signup', function()
+{
+    return View::make('signup');
+});
+Route::post('thankyou', function()
+{
+    return View::make('thankyou');
+});
+*/

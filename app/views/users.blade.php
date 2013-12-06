@@ -1,3 +1,5 @@
+<!-- somehow this is referencing models/User.php --->
+
 @extends('layout')
 
 @section('content')
@@ -5,3 +7,4 @@
         <p>{{ $user->name }} at {{ $user->email }}</p>
     @endforeach
 @stop
+

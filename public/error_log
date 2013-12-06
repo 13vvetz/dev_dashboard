@@ -1,0 +1,4 @@
+[22-Nov-2013 05:01:01 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home8/payuforw/laravel/dev-dashboard/app/routes.php on line 41
+[22-Nov-2013 05:01:34 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home8/payuforw/laravel/dev-dashboard/app/routes.php on line 41
+[22-Nov-2013 05:02:44 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home8/payuforw/laravel/dev-dashboard/app/routes.php on line 41
+[25-Nov-2013 06:38:59 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home8/payuforw/laravel/dev-dashboard/app/controllers/UsersController.php on line 7
